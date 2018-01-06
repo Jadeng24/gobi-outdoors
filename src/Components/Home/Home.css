@@ -1,5 +1,13 @@
 .Home {
     width: 100vw;
-    height: calc(100vh - 50px);
-    background: #999;
+    height: 100vh;
+    background: url('./../Assets/snowymtns.jpg');
+    background-size: cover;
+    position: relative;
+    position: fixed;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+

@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import './Home.css';
- 
-class Home extends Component{ 
-    constructor(){
+
+class Home extends Component {
+    constructor() {
         super();
- 
+
         this.state = {
-            
+
         }
     }
- 
-    render(){
+
+    render() {
         return (
             <div className='Home'>
             </div>

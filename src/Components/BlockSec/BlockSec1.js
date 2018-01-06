@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Contact.css';
+import './BlockSec1.css';
 import gobi from './../Assets/Gobi_logo_Black.png';
-class Contact extends Component {
+class BlockSec1 extends Component {
     constructor() {
         super();
 
@@ -12,10 +12,12 @@ class Contact extends Component {
 
     render() {
         return (
-            <div className='Contact'>
-                contact me
+            <div className='BlockSec1'>
+                
+                    <img src={gobi} alt='logo' className='LogoGreySection' />
+
             </div>
         )
     }
 }
-export default Contact;
+export default BlockSec1;

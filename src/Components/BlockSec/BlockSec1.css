@@ -1,0 +1,17 @@
+/* .BlockSec1 {
+    width: 100vw;
+    height: 280px;
+    background: #222;
+    
+} */
+
+.LogoGreySection {
+
+    width: 20%;
+    transform: rotate(20deg);
+    color: rgb(51, 51, 51);
+    opacity: .8;
+   
+   
+  
+} 

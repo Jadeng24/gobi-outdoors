@@ -1,3 +1,7 @@
+.MainHolder {
+  position: relative;
+  
+}
 
 /* Navigation */
 nav {
@@ -7,10 +11,13 @@ nav {
   align-items: center;
   top: 0;
   width: 100vw;
-  transition: .3s;
+  transition: .6s;
+  z-index: 10;
+  transition-delay: .25s;
 }
 .Logo {
   color: white;
+  font-size: 12pt;
 }
 nav a {
   text-decoration: none;
@@ -24,7 +31,7 @@ nav a:hover {
   
 }
 
-/* content */
+
 .topOfPageNav {
   background: transparent;
   height: 80px;
@@ -38,3 +45,41 @@ nav a:hover {
   height: 50px;
 
 }
+/* -------end of Nav-------- */
+
+
+/* content */
+.HomeTitle {
+    color: white;
+    font-size: 30pt;
+    letter-spacing: 10px; 
+}
+.HomeSubTitle {
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+.transparentSection {
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.127) 0%, rgba(0,0, 0, 1) 105%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.LogoTransparentSection {
+  width: 20%;
+  min-width: 200px;
+  max-width: 600px;
+}
+
+/* grey block section */
+.blockSection {
+  width: 100vw;
+  height: 280px;
+  background: #333;
+  position: relative;
+}
+
+
