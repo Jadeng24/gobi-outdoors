@@ -8,9 +8,10 @@ import { configureAnchors } from 'react-scrollable-anchor'
 import Home from './Components/Home/Home.js';
 import About from './Components/About/About.js';
 import Contact from './Components/Contact/Contact.js';
-import GOBI_Logo from './Components/Assets/Gobi_logo.png';
-import GOBI_LOGO_BLACK from './Components/Assets/Gobi_logo_Black.png';
+
 import BlockSec1 from './Components/BlockSec/BlockSec1.js';
+import BlockSec2 from './Components/BlockSec/BlockSec2.js';
+
 class Main extends Component {
   constructor() {
     super();
@@ -24,7 +25,7 @@ class Main extends Component {
 
   componentDidMount() {
     document.addEventListener('scroll', () => {
-      // Offset all anchors by -60 to account for a fixed header 
+      // Offset all anchors by -50 to account for a fixed header 
       // and scroll more quickly than the default 400ms 
       configureAnchors({ offset: -50, scrollDuration: 500 })
 
@@ -56,16 +57,12 @@ class Main extends Component {
             <ScrollableAnchor id={'HOME'}>
               <Home />
             </ScrollableAnchor>
-            <div className='transparentSection'>
-              <img src={GOBI_Logo} alt='logo' className='LogoTransparentSection' />
-              <h1 className='HomeTitle'> VERSATILE & DURABLE </h1>
-              <p className='HomeSubTitle'>Explore the world with all-terrain roof top tent trailers. <br />Order yours today. </p>
-            </div>
+            
              
 
-            <div className='blockSection'>
-              <BlockSec1 />
-            </div>
+            
+            <BlockSec1 />
+            <BlockSec2 />
             <ScrollableAnchor id={'ABOUT'}>
               <About />
             </ScrollableAnchor>

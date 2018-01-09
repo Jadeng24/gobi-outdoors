@@ -3,11 +3,39 @@
     height: 100vh;
     background: url('./../Assets/snowymtns.jpg');
     background-size: cover;
-    position: relative;
+    
     position: fixed;
     z-index: -1;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/* overlay on .Home background */
+.transparentSection {
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.127) 0%, rgba(0,0, 0, 1) 105%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+hometitle {
+    color: white;
+    font-size: 30pt;
+    letter-spacing: 10px; 
+    text-align: center;
+}
+.HomeSubTitle {
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+.LogoTransparentSection {
+  width: 20%;
+  min-width: 200px;
+  max-width: 600px;
 }
 

@@ -1,0 +1,15 @@
+.BlockSec2 {
+    width: 100vw;
+    height: 400px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.BlockSec2 > h2 {
+    /* font-size: 30pt; */
+    letter-spacing: 10px;
+    padding: 20px;
+    text-align: center;
+}

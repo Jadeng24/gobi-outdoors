@@ -13,7 +13,7 @@ class BlockSec1 extends Component {
     render() {
         return (
             <div className='BlockSec1'>
-                
+                    
                     <img src={gobi} alt='logo' className='LogoGreySection' />
 
             </div>

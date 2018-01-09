@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './About.css';
+import './BlockSec2.css';
  
-class About extends Component{ 
+class BlockSec2 extends Component{ 
     constructor(){
         super();
  
@@ -12,11 +12,11 @@ class About extends Component{
  
     render(){
         return (
-            <content className='About'>
-                <h1> ABOUT US </h1>
+            <div className='BlockSec2'>
+                <h2>WELCOME</h2>
                 <p>asd asdf asl;kasd lkas dflkjasd fljasd flkjasd flkjasd fl;ajsdf l;as dlkjasdlfjasdflkjasdflkasdf;l</p>
-            </content>
+            </div>
         )
     }
 }
-export default About;
+export default BlockSec2;
