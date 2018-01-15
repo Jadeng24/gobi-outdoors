@@ -6,11 +6,16 @@ import { configureAnchors } from 'react-scrollable-anchor'
 
 //Components
 import Home from './Components/Home/Home.js';
-import About from './Components/About/About.js';
-import Contact from './Components/Contact/Contact.js';
-
 import BlockSec1 from './Components/BlockSec/BlockSec1.js';
 import BlockSec2 from './Components/BlockSec/BlockSec2.js';
+import About from './Components/About/About.js';
+import BlockSec3 from './Components/BlockSec/BlockSec3.js';
+import Contact from './Components/Contact/Contact.js';
+import Footer from './Components/Footer/Footer.js';
+
+
+
+
 
 class Main extends Component {
   constructor() {
@@ -65,11 +70,12 @@ class Main extends Component {
             <BlockSec2 />
             <ScrollableAnchor id={'ABOUT'}>
               <About />
-            </ScrollableAnchor>
+          </ScrollableAnchor>
+          <BlockSec3 />
             <ScrollableAnchor id={'CONTACT'}>
               <Contact />
             </ScrollableAnchor>
-
+            <Footer/>
             <h2 onClick={() => goToTop()}><button>Scroll to Top</button> </h2>
         </div>{/* end of main */}
 

@@ -1,0 +1,22 @@
+.BlockSec3 {
+    padding-top: 50px;
+    width: 100vw;
+    /* height: 350px; */
+    background-image: radial-gradient(rgba(0, 0, 0, 0.127) 0%, rgba(0,0, 0, 1) 105%);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.BlockSec3 >h2 {
+    color: white;
+    text-align: center;
+}
+.BlockSec3 > p {
+    color: white;
+    text-align: center;
+}
+.Sec3Btn {
+    align-self: center;
+    margin-bottom: 50px;
+}

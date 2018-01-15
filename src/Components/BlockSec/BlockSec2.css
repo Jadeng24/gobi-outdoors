@@ -1,15 +1,52 @@
 .BlockSec2 {
     width: 100vw;
-    height: 400px;
+    height: 450px;
     background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url('../Assets/mountains2.jpg');
+    background-size: cover;
+    position: relative;
 }
-.BlockSec2 > h2 {
-    /* font-size: 30pt; */
+.Sec2Overlay {
+    background: linear-gradient(to right, transparent 0%,
+    rgba(255, 255, 255, 0.1) 5%,
+    rgba(255, 255, 255, 0.3) 10%,
+    rgba(255, 255, 255, 0.5) 20%,
+    rgba(255, 255, 255, 0.7) 30%,
+    rgba(255, 255, 255, 0.9) 40%,
+    rgb(255, 255, 255) 50%);
+    height: 100%;
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    transition: .3s;
+}
+.BlockSec2Content {
+    z-index: 2;
+    display: flex;
+    padding: 0px 10%;
+    flex-direction: column;
+    margin-left: 30vw;
+}
+.BlockSec2Content > h2 {
+    font-size: 30pt;
     letter-spacing: 10px;
     padding: 20px;
     text-align: center;
+    
+}
+@media (max-width:600px) {
+    .Sec2Overlay {
+        background: white;
+        
+    }
+    .BlockSec2Content {
+        margin: 0;
+    }
 }

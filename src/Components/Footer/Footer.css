@@ -1,0 +1,11 @@
+.Footer {
+    width: 100vw;
+    height: 50vh;
+    background: #222;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.Footer > h2 {
+    color: white;
+}
