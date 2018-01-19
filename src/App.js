@@ -15,15 +15,15 @@ import Footer from './Components/Footer/Footer.js';
 
 
 
-
-
 class Main extends Component {
   constructor() {
     super();
 
     this.state = {
-      isTop: true
+      isTop: true,
+      
     }
+    
   }
 
 
@@ -40,6 +40,8 @@ class Main extends Component {
       }
     });
   }
+
+ 
   render() {
     return (
       <div className='MainHolder'>
@@ -76,9 +78,9 @@ class Main extends Component {
               <Contact />
             </ScrollableAnchor>
             <Footer/>
-            <h2 onClick={() => goToTop()}><button>Scroll to Top</button> </h2>
+          <div className='goToTop'>  <a href='#HOME' className='goToTopBtn'> <h3>Go to Top </h3></a></div>
         </div>{/* end of main */}
-
+        {/* onClick={() => goToTop()} */}
       </div>// end of mainHolder
 
     )

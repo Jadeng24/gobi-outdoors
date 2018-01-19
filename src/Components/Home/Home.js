@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './Home.css';
 import GOBI_Logo from './../Assets/Gobi_logo.png';
 
-import GOBI_LOGO_BLACK from './../Assets/Gobi_logo_Black.png';
 class Home extends Component {
     constructor() {
         super();

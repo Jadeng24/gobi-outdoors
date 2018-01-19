@@ -70,3 +70,32 @@ p {
   font-weight: 300;
   padding: 20px;
 }
+.goToTop {
+  background: #222;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.goToTopBtn {
+  color: white;
+  border-left: solid 3px white;
+  border-bottom: solid 3px white;
+  cursor: pointer;
+  margin: 0px;
+  width: 100px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-bottom: 10px;
+
+}
+.goToTopBtn > h3 {
+  margin: 0;
+    padding: 0;
+    font-size: 16pt;
+    line-height: 16pt;
+    color: white;
+}
+.goToTopBtn:hover {
+  opacity: .7;
+}
