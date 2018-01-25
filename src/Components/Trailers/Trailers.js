@@ -12,9 +12,9 @@ class Trailers extends Component{
  
     render(){
         return (
-            <div className='Trailers'>
-                <h1>Trailers</h1>
-            </div>
+            <content className='Trailers'>
+                <h1>TRAILERS</h1>
+            </content>
         )
     }
 }

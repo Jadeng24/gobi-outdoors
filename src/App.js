@@ -7,7 +7,9 @@ import { configureAnchors } from 'react-scrollable-anchor'
 //Components
 import Home from './Components/Home/Home.js';
 import BlockSec1 from './Components/BlockSec/BlockSec1.js';
+import Tents from './Components/Tents/Tents.js';
 import BlockSec2 from './Components/BlockSec/BlockSec2.js';
+import Trailers from './Components/Trailers/Trailers.js';
 import About from './Components/About/About.js';
 import BlockSec3 from './Components/BlockSec/BlockSec3.js';
 import Contact from './Components/Contact/Contact.js';
@@ -55,6 +57,8 @@ class Main extends Component {
           <div>
 
             <a href='#HOME'> HOME </a>
+            <a href='#TENTS'> TENTS </a>
+            <a href='#TRAILERS'> TRAILERS </a>
             <a href='#ABOUT'> ABOUT </a>
             <a href='#CONTACT'> CONTACT </a>
           </div>
@@ -68,12 +72,20 @@ class Main extends Component {
              
 
             
-            <BlockSec1 />
-            <BlockSec2 />
-            <ScrollableAnchor id={'ABOUT'}>
-              <About />
+          <BlockSec1 />
+          
+          <BlockSec2 />
+          <ScrollableAnchor id={'TENTS'}>
+            <Tents />
+          </ScrollableAnchor>
+          <ScrollableAnchor id={'TRAILERS'}>
+            <Trailers />
+          </ScrollableAnchor>
+          <ScrollableAnchor id={'ABOUT'}>
+            <About />
           </ScrollableAnchor>
           <BlockSec3 />
+          
             <ScrollableAnchor id={'CONTACT'}>
               <Contact />
             </ScrollableAnchor>
