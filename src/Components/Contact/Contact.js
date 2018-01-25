@@ -69,7 +69,7 @@ class Contact extends Component {
                         <h3>Subject</h3><input type='text' maxLength='40' onChange={(e) => this.handleChange('subject', e.target.value)} />
                         <h3>Message *</h3><textarea type='text' rows='5' cols='10' placeholder='Send me a message' maxLength='300' onChange={(e) => this.handleChange('message', e.target.value)}></textarea>
 
-                        <div  className='myButton' onClick={this.sendEmail}><h3>Send</h3></div >
+                        <div  className='myButton' onClick={this.sendEmail}><h3>SEND</h3></div >
                     </form>
                     
                 </div>

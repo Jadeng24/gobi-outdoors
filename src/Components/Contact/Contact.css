@@ -80,35 +80,7 @@ textarea:hover {
     background: #333;
     cursor: text;
 }
-.myButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 50px;
-    border-radius: 2px;
-    border-left: 3px solid white;
-    border-bottom: 3px solid white;
-    cursor: pointer;
-    z-index: 1;
-    
-}
 
-.myButton h3 {
-    margin: 0;
-    padding: 0;
-    font-size: 16pt;
-    line-height: 16pt;
-    color: white;
-}
-
-.myButton:hover {
-    background: #444;
-}
-
-.myButton:active h3 {
-    opacity: 1;
-}
 @media (max-width:700px) {
     
     .ContactInfo {

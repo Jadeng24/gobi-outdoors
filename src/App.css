@@ -1,3 +1,6 @@
+/* used for nav and titles --->font-family: 'Prompt', sans-serif; font-weight: 200, 400,700, 900 */
+
+
 .MainHolder {
   position: relative;
   
@@ -18,14 +21,18 @@ nav {
 .Logo {
   color: white;
   font-size: 12pt;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 700;
 }
 nav a {
   text-decoration: none;
   padding: 5px 10px;
   transition: .3s;
-  font-family: Helvetica, sans-serif;
   color: grey;;
-  font-size: 10pt;
+  font-size: 8pt;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 700;
+  letter-spacing: 4px;
 }
 nav a:hover {
   color: white;
@@ -63,6 +70,8 @@ h1 {
     padding: 15px 30px;
     text-align: center;
     letter-spacing: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
 }
 p {
   text-align: center;
@@ -70,6 +79,42 @@ p {
   font-weight: 300;
   padding: 20px;
 }
+/* button for all attributes */
+.myButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 2px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+    z-index: 1;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    transition-delay: .15s;
+    transition: .3s;
+    
+}
+
+.myButton h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 16pt;
+    line-height: 16pt;
+    color: white;
+}
+
+.myButton:hover {
+    background: #444;
+
+}
+
+.myButton:active h3 {
+    opacity: 1;
+}
+/* end of myButton */
 .goToTop {
   background: #222;
   margin: 0;
@@ -87,6 +132,7 @@ p {
   padding: 10px 20px;
   text-decoration: none;
   margin-bottom: 10px;
+  
 
 }
 .goToTopBtn > h3 {
@@ -95,6 +141,9 @@ p {
     font-size: 16pt;
     line-height: 16pt;
     color: white;
+    font-family: 'Prompt', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
 }
 .goToTopBtn:hover {
   opacity: .7;

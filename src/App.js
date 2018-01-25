@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import ScrollableAnchor from 'react-scrollable-anchor';
-import { goToTop } from 'react-scrollable-anchor';
+// import { goToTop } from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor'
 
 //Components
