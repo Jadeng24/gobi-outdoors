@@ -1,0 +1,150 @@
+/* used for nav and titles --->font-family: 'Prompt', sans-serif; font-weight: 200, 400,700, 900 */
+
+
+.MainHolder {
+  position: relative;
+  
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  width: 100vw;
+  transition: .6s;
+  z-index: 10;
+  transition-delay: .25s;
+}
+.Logo {
+  color: white;
+  font-size: 12pt;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 700;
+}
+nav a {
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: .3s;
+  color: grey;;
+  font-size: 8pt;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+nav a:hover {
+  color: white;
+}
+
+
+.topOfPageNav {
+  background: transparent;
+  height: 80px;
+
+}
+.topOfPageNav a {
+  
+}
+
+.notTopOfPageNav {
+  background: #333;
+  height: 52px;
+
+}
+/* -------end of Nav-------- */
+
+.Main {
+  height: 100vh;
+}
+/* content */
+content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+  border: solid 10px black;
+    padding: 15px 30px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+}
+p {
+  text-align: center;
+  font-size: 10pt;
+  font-weight: 300;
+  padding: 20px;
+}
+/* button for all attributes */
+.myButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 2px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+    z-index: 1;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    transition-delay: .15s;
+    transition: .3s;
+    
+}
+
+.myButton h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 16pt;
+    line-height: 16pt;
+    color: white;
+}
+
+.myButton:hover {
+    background: #444;
+
+}
+
+.myButton:active h3 {
+    opacity: 1;
+}
+/* end of myButton */
+.goToTop {
+  background: #222;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.goToTopBtn {
+  color: white;
+  border-left: solid 3px white;
+  border-bottom: solid 3px white;
+  cursor: pointer;
+  margin: 0px;
+  width: 100px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  
+
+}
+.goToTopBtn > h3 {
+  margin: 0;
+    padding: 0;
+    font-size: 16pt;
+    line-height: 16pt;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+.goToTopBtn:hover {
+  opacity: .7;
+}
