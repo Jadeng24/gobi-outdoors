@@ -19,6 +19,7 @@ app.use(session({
     saveUninitialized: true
 }))
 
+
 //=====| ENDPOINTS |==================================
 
 //---Send message through nodemailer---/
