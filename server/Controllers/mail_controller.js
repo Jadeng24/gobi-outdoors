@@ -31,7 +31,7 @@ module.exports = {
                 </div>
             </div>
             <hr/>
-            <a href='http://goodwindevelopmentinc.com/' style="text-decoration:none;color:#235aa6;"><h1 style="color:#235aa6;">Goodwin Development Inc.</h1></a>
+            <a href='http://goodwindev.tech/' style="text-decoration:none;color:#235aa6;"><h1 style="color:#235aa6;">Goodwin Development Inc.</h1></a>
             Sent from Jaden Goodwin's Portfolio
 
             `
