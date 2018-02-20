@@ -33,7 +33,7 @@ class Contact extends Component {
         }
 
         else {
-            if (!this.state.name) {
+            if (!this.state.firstName) {
                 alert('Please Enter Name'
                 )
             }

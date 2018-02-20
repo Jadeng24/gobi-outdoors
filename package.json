@@ -9,7 +9,7 @@
     "express": "^4.16.2",
     "express-session": "^1.15.6",
     "massive": "^4.6.3",
-    "nodemailer": "^4.4.1",
+    "nodemailer": "^4.4.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",

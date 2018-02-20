@@ -53,7 +53,7 @@ class Landing extends Component {
                 <nav className={this.state.isTop ? 'topOfPageNav' : 'notTopOfPageNav'}>
                     <div>
 
-                        <h2 className='Logo'>GOBI OUTDOORS</h2>
+                        <Link to='/'><h2 className='Logo'>GOBI OUTDOORS</h2></Link>
                     </div>
                     <div>
 

@@ -23,16 +23,20 @@ module.exports = {
             subject: req.body.subject, // Subject line
             // text: 'testing one two on two' // plain text body
             html: `
-            <p>You have a message from ${req.body.name}</p>
+            <p>You have a message from ${req.body.firstName}</p>
+            <p>${req.body.email}</p>
             <div style="width: 100%; min-height:30%; display: flex; justify-content:center; align-items:center; background: #eee;">
                 <div style="width:90%; background: white;border-radius:5px; min-height:250px;margin:10px 0px">
                 <h1 style="width:100%; padding:20px 0px;background:#235aa6;border-bottom:solid 1px #777;text-align:center;color:white;">${req.body.subject}</h1><br>
                 <p style=" padding:10px 20px;">${req.body.message}</p>
+                <h4 style=" padding:5px 20px;">From ${req.body.firstName} ${req.body.lastName}</h4>
+                
+                
                 </div>
             </div>
             <hr/>
-            <a href='http://goodwindev.tech/' style="text-decoration:none;color:#235aa6;"><h1 style="color:#235aa6;">Goodwin Development Inc.</h1></a>
-            Sent from Jaden Goodwin's Portfolio
+            <a href='http://gobioutdoors.com' style="text-decoration:none;color:#333;"><h1 style="color:#235aa6;">Gobi Outdoors</h1></a>
+            Sent from Gobi Outdoors website.
 
             `
         };

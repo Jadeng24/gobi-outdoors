@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './TrailersPage.css';
+import './ThankYou.css';
 import { Link } from 'react-router-dom';
-class TrailersPage extends Component{ 
+class ThankYou extends Component{ 
     constructor(){
         super();
  
@@ -12,7 +12,9 @@ class TrailersPage extends Component{
  
     render(){
         return (
-            <div className='TrailersPage'>
+            
+              
+            <div className='ThankYou'>
                 <nav className={this.state.isTop ? 'topOfPageNav' : 'notTopOfPageNav'}>
                     <div>
 
@@ -28,9 +30,10 @@ class TrailersPage extends Component{
                         <Link to='/#CONTACT'> CONTACT </Link>
                     </div>
                 </nav>  
-                <h1> TRAILERS </h1>
+
+                <h3> Thank you. Your message has been sent. We will get back to you soon.</h3>
             </div>
         )
     }
 }
-export default TrailersPage;
+export default ThankYou;
