@@ -5,7 +5,7 @@ const express = require('express'),
     massive = require('massive'),
     cors = require('cors'),
     axios = require('axios'),
-    mail_controller = require('./controllers/mail_controller');
+    mail_controller = require('./Controllers/mail_controller.js');
 
 
 const app = express();
