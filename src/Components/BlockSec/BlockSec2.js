@@ -16,7 +16,7 @@ class BlockSec2 extends Component{
                 <div className='Sec2Overlay'></div>
                 <div className='BlockSec2Content'>
                 <h2>WELCOME</h2>
-                    <p>asd asdf asl;kasd lkas dflkjasd fljasd flkjasd flkjasd fl;ajsdf l;as dlkjasdlfjasdflkjasdflkasdf;l</p>
+                    <p>The roof-top tent trailers from Gobi Outdoors is changing the standard for off-road enthusiasts. As one of the top manufacturors of all-terrain products, Gobi Outdoors sets the expectation for the highest quality and most durable trailers.</p>
                     </div>
                  
             </div>

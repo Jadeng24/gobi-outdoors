@@ -13,10 +13,12 @@ class BlockSec3 extends Component{
     render(){
         return (
             <div className='BlockSec3'>
-                <h2>Titleasdf;alsdf;</h2>    
-                <p>hasdl;fjkasdl; fkasdlkfasdfl;jasdf lasdfl;jas dfljasdlfsd afl;kj</p>
-                <p> fkasdlkfasdfl;jasdf lasdfl;jas dfljasdlfsd afl;kj</p>
-                <div className='myButton Sec3Btn'><h3>Link</h3></div>
+                <h2>Buy Now</h2>    
+                <p>The arrival of our newest models will be April 10, 2018.</p>
+                <p>To pre-order now, send us a message below with any questions you might have and we will add you to our waiting list. 
+                </p>
+                
+                <div className='myButton Sec3Btn'><a href='/#CONTACT'> CONTACT </a></div>
             </div>
         )
     }
