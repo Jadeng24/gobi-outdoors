@@ -1,6 +1,44 @@
-.About {
-    width: 100vw;
-    height: 50vh;
+.About { 
     background: white;
+}
+
+.sideBySide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    padding: 0px 30px;
+    max-width: 1100px;
+    
+    
+}
+.aboutImg {
+    transition: .2s;
+}
+
+@media (min-width:700px) {
+    .aboutImg {
+   max-height: 60%;
+   margin-right: 30px;
+    }
+}
+@media (min-width:901px) {
+    .aboutImg {
+   max-height: 80%;
+   margin-right: 30px;
+    }
+}
+@media (max-width:700px) {
+    
+    .sideBySide {
+        padding-top: 20px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .aboutImg {
+        max-width: 70%;
+        max-width: 275px;
+
+    }
     
 }

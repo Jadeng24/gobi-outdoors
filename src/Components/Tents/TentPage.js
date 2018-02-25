@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './TrailersPage.css';
-import { Link } from 'react-router-dom';
-class TrailersPage extends Component{ 
+import './TentPage.css';
+ 
+class TentPage extends Component{ 
     constructor(){
         super();
  
@@ -12,7 +12,7 @@ class TrailersPage extends Component{
  
     render(){
         return (
-            <content className='TrailersPage'>
+            <content className='TentPage'>
                 <nav className={this.state.isTop ? 'topOfPageNav' : 'notTopOfPageNav'}>
                     <div>
 
@@ -27,10 +27,9 @@ class TrailersPage extends Component{
                         <Link to='/#ABOUT'> ABOUT </Link>
                         <Link to='/#CONTACT'> CONTACT </Link>
                     </div>
-                </nav>  
-                <h1> TRAILERS </h1>
+                </nav> 
             </content>
         )
     }
 }
-export default TrailersPage;
+export default TentPage;

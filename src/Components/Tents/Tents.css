@@ -6,3 +6,16 @@
 .Tents > h1 {
     
 }
+@media(min-width:700px) {
+    .tentImg{
+        max-width: 45%;
+        
+    }
+}
+@media(max-width:700px) {
+    .tentImg {
+        padding: 20px 0px;
+        max-height: 45%;
+        max-width: 80vw;
+    }
+}

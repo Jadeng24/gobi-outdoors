@@ -59,8 +59,7 @@ class Landing extends Component {
 
                         <a href='#HOME'> HOME </a>
                         <a href='#TENTS'> TENTS </a>
-                        {/* <a href='#TRAILERS'> TRAILERS </a> */}
-                        <Link to='/trailers'> TRAILERS </Link>
+                        <a href='#TRAILERS'> TRAILERS </a>
                         <a href='#ABOUT'> ABOUT </a>
                         <a href='#CONTACT'> CONTACT </a>
                     </div>

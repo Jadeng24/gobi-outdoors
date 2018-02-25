@@ -57,8 +57,8 @@ class Contact extends Component {
 
                 <div className='ContactInfo'>
                     <div className='leftContact'>
-                        <h2>titlelsd</h2>
-                        <p>asd asdf asl;kasd lkas dflkjasd fljasd flkjasd flkjasd fl;ajsdf l;as dlkjasdlfjasdflkjasdflkasdf;l</p>
+                        <h2>Questions or Comments?</h2>
+                        <p>Reach out by completing the message form and we will get back as soon as possible!</p>
                     </div>
                     <form>
 

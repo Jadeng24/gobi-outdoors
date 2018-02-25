@@ -7,22 +7,19 @@
 .ContactInfo {
     display: flex;
     justify-content: center;
-    
+    max-width: 1100px;
     width: 100vw;
 
 }
 .ContactTitle {
     color: white;
     border-color: white;
-
 }
 
 .leftContact {
-    width: 100vw;
-
     background: white;
     display: flex;
-    /* justify-content: center; */
+    padding: 0px 2vw;
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
@@ -38,7 +35,7 @@ form {
     padding: 0px 4%;
 }
 form input {
-    width: calc(100% - 13px);
+    width: calc(100% - 20px);
     height: 30px;
     border-radius: 2px;
     border: none;
@@ -86,10 +83,19 @@ textarea:hover {
     .ContactInfo {
         flex-direction: column;
         justify-content: center;
+        background: #222;
     }
+    .Contact {
+        background: white;
+    }
+    .ContactTitle {
+    color: #222;
+    border-color: #222;
+    background: white;
+}
     .leftContact {
         margin-top: 0px;
-        height: 280px;
+        height: 230px;
     }
     
 }

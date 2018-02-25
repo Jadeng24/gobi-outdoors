@@ -1,0 +1,10 @@
+.Trailers {
+    background: #222;
+}
+.Trailers > h1 {
+    color: white;
+    border-color: white;
+}
+.trailerImg {
+    max-width: 45%;
+}
