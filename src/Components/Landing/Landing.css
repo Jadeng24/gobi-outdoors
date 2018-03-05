@@ -87,7 +87,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 130px;
     height: 50px;
     border-radius: 2px;
     border-left: 3px solid white;
@@ -98,7 +98,13 @@ p {
     font-weight: 700;
     transition-delay: .15s;
     transition: .3s;
+    opacity: .7;
+    text-decoration: none;
     
+}
+.myButton > a {
+  text-decoration: none;
+  color: white;
 }
 
 .myButton h3 {
@@ -107,15 +113,21 @@ p {
     font-size: 16pt;
     line-height: 16pt;
     color: white;
+    text-decoration: none;
 }
 
 .myButton:hover {
-    background: #444;
+    opacity: 1;
 
 }
 
 .myButton:active h3 {
-    opacity: 1;
+    opacity: .7;
+    text-decoration: none;
+}
+
+.myButton:active {
+  opacity: .7;
 }
 /* end of myButton */
 .goToTop {
@@ -124,33 +136,7 @@ p {
   display: flex;
   justify-content: flex-end;
 }
-.goToTopBtn {
-  color: white;
-  border-left: solid 3px white;
-  border-bottom: solid 3px white;
-  cursor: pointer;
-  margin: 0px;
-  width: 100px;
-  text-align: center;
-  padding: 10px 20px;
-  text-decoration: none;
-  margin-bottom: 10px;
-  
 
-}
-.goToTopBtn > h3 {
-  margin: 0;
-    padding: 0;
-    font-size: 16pt;
-    line-height: 16pt;
-    color: white;
-    font-family: 'Prompt', sans-serif;
-  font-weight: 700;
-  cursor: pointer;
-}
-.goToTopBtn:hover {
-  opacity: .7;
-}
 /* mobile */
 @media (max-width:700px) {
   content {

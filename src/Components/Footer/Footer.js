@@ -14,13 +14,17 @@ class Footer extends Component{
         return (
             <content className='Footer'>
                 
-                    <div>
+                    <div className='leftFooter footerSide'>
                         <a href='/#HOME'> HOME </a>
                         <a href='/#TENTS'> TENTS </a>
                         <a href='/#TRAILERS'> TRAILERS </a>
                         <a href='/#ABOUT'> ABOUT </a>
                         <a href='/#CONTACT'> CONTACT </a>
-                    </div>
+                </div>
+                <div className='rightFooter footerSide'>
+
+                <h2>Follow Us</h2>    
+                </div>
             
             </content>
         )

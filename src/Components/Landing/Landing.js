@@ -91,7 +91,7 @@ class Landing extends Component {
                         <Contact />
                     </ScrollableAnchor>
                     <Footer />
-                    <div className='goToTop'>  <a href='#HOME' className='goToTopBtn'> <h3>Go to Top </h3></a></div>
+                    <div className='goToTop'>  <a href='#HOME' className='myButton'> <h3>Go to Top </h3></a></div>
                 </div>{/* end of main */}
                 {/* onClick={() => goToTop()} */}
             </div>// end of mainHolder
